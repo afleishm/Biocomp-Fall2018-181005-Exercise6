@@ -9,7 +9,7 @@ iris=read.csv("iris.csv", header = TRUE)
 num_head = 5
 
 head(iris,num_head)
-### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.25 points, because you did still assign variables. What we were looking for was something like:
+### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.1 points, because you did still assign variables. What we were looking for was something like:
 ## iris[1:num_head,]
 
 #2
