@@ -9,6 +9,8 @@ iris=read.csv("iris.csv", header = TRUE)
 num_head = 5
 
 head(iris,num_head)
+### Brittni: We wanted you to recreate the functionality of head without using it. I took off 0.25 points, because you did still assign variables. What we were looking for was something like:
+## iris[1:num_head,]
 
 #2
 #Last 2 rows and columns
@@ -18,6 +20,9 @@ tail(iris[4:5],2)
 nrow(iris[iris$Species == "setosa", 1:5])
 nrow(iris[iris$Species == "versicolor" , 1:5])
 nrow(iris[iris$Species == "virginica" , 1:5])
+
+### Brittni: Just as a note, you don't need to explicitly say 1:5. If you want all the columns, you can leave it blank
+## nrow(iris[iris$Species == "setosa", ])
 
 #Rows with Sepal.Width > 3.5
 iris[iris$Sepal.Width > 3.5, 1:5]
